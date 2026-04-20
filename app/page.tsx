@@ -24,12 +24,17 @@ const InfoSection = memo(() => (
     <p className="font-royal text-2xl md:text-3xl text-[#3d2b1f] tracking-[0.3em] mb-6 font-semibold">11 . 05 . 2026</p>
     <div className="mb-10 space-y-3">
       <p className="font-sans text-[14px] text-[#8c7355] font-bold uppercase tracking-[2px]">Ramage Hotel, New Cairo</p>
-      <p className="font-sans text-[10px] text-[#777] uppercase tracking-[3px] italic font-medium">The Andalusian Open Air Venue | 8:00 PM</p>
+      {/* تم تعديل الوقت هنا إلى 7:00 PM */}
+      <p className="font-sans text-[10px] text-[#777] uppercase tracking-[3px] italic font-medium">The Andalusian Open Air Venue | 7:00 PM</p>
     </div>
-    <div className="mt-8 px-6 mx-auto border-t border-[#e8dfd5] pt-8">
-      <p className="font-arabic text-[14px] md:text-[15px] text-[#5d4037] leading-relaxed italic">
-        "حرصًا على راحة الجميع والاستمتاع بأمسية هادئة ومميزة، نأمل منكم التكرم بترك الأطفال في المنزل."
+    {/* تم استبدال جملة الأطفال ببيت الشعر مع تنسيق مخصص */}
+    <div className="mt-8 px-6 mx-auto border-t border-[#e8dfd5] pt-10">
+      <p className="font-arabic text-[19px] md:text-[21px] text-[#5d4037] leading-loose italic font-medium">
+        مَا لِلدِّيَارِ تَبَاهَتْ فِي أَنَاقَتِهَا
+        <br />
+        إِلَّا لِأَنَّكُمُ لِلرُّوحِ زُوَّارُ
       </p>
+      <div className="w-16 h-[1px] bg-gradient-to-r from-transparent via-[#b8860b] to-transparent mx-auto mt-6 opacity-60"></div>
     </div>
   </div>
 ));
@@ -159,7 +164,6 @@ const WeddingInvitation: React.FC = () => {
         }
         @keyframes fadeInInvitation { from { opacity: 0; transform: translateY(50px) scale(0.95); } to { opacity: 1; transform: translateY(0) scale(1); } }
 
-        /* أنيميشن البوب أب الشيك */
         .modal-enter {
           animation: modalFloatUp 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
         }
@@ -221,7 +225,6 @@ const WeddingInvitation: React.FC = () => {
           </div>
         </div>
       ) : (
-        /* تم تعديل الشفافية هنا: جعلت الخلفية البيضاء شفافة بنسبة 40% (bg-[#fdf8f2]/40) وزدت الضبابية الخفيفة لتمييز الورقة عن الخلفية دون حجب الباتيرن */
         <div className="invitation-entrance w-full max-w-[550px] relative shadow-[0_40px_100px_rgba(0,0,0,0.08)] border border-[#d4af37]/20 rounded-[2.5rem] bg-[#fdf8f2]/40 backdrop-blur-sm overflow-hidden z-10 mx-4 px-2 py-2">
           
           <div className="absolute inset-0 z-0 opacity-[0.15] pointer-events-none">
