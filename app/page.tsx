@@ -61,7 +61,7 @@ const WeddingInvitation: React.FC = () => {
 
   useEffect(() => {
     setMounted(true);
-    const targetDate = new Date("2026-05-11T20:00:00").getTime();
+    const targetDate = new Date("2026-05-11T19:00:00").getTime();
     
     const calculateTime = () => {
       const now = new Date().getTime();
