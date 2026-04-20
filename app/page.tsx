@@ -251,7 +251,7 @@ const WeddingInvitation: React.FC = () => {
                 Confirm Attendance
               </button>
               <button 
-                onClick={() => window.open("https://maps.app.goo.gl/YourLinkHere")} 
+                onClick={() => window.open("https://maps.app.goo.gl/LqBXAGUkNu5yeXb86")} 
                 className="flex items-center justify-center gap-3 text-[#8c7355] font-sans text-[11px] tracking-[3px] uppercase hover:text-[#b8860b] transition-all font-bold"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" /><circle cx="12" cy="10" r="3" /></svg>
