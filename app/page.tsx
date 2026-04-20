@@ -23,8 +23,8 @@ const InfoSection = memo(() => (
   <div className="w-full px-2 tabular mt-4">
     <p className="font-royal text-2xl md:text-3xl text-[#3d2b1f] tracking-[0.3em] mb-6 font-semibold">11 . 05 . 2026</p>
     <div className="mb-10 space-y-3">
-      <p className="font-sans text-[14px] text-[#8c7355] font-bold uppercase tracking-[2px]">Ramage Hotel, New Cairo</p>
-      <p className="font-sans text-[10px] text-[#777] uppercase tracking-[3px] italic font-medium">The Andalusian Open Air Venue | 7:00 PM</p>
+      <p className="font-sans text-[16px] text-[#8c7355] font-bold uppercase tracking-[2px]">Ramage Hotel, New Cairo</p>
+      <p className="font-sans text-[12px] text-[#777] uppercase tracking-[3px] italic font-medium">The Andalusian Open Air Venue | 7:00 PM</p>
     </div>
     
     {/* التعديل: زيادة المسافة فوق بيت الشعر لراحة العين */}
